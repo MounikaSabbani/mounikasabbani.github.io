@@ -1,0 +1,67 @@
+
+.pagetitle {
+	color: darkslategray;
+	font-family: 'Alice', serif;
+	font-size: 24px;
+	font-weight: none;
+}
+
+.pagesubtitle {
+	color: black;
+	font-family: 'Alice', serif;
+	font-size: 15x;
+}
+
+.pagetext {
+	
+}
+
+.pagebutton {
+	background-color: steelblue;
+	color: white;
+	font-family: 'Arial';
+	font-size: 15px;
+	padding: 8px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabbutton {
+  background-color: lightslategray;
+  font-family: 'Alice';
+  font-weight: bold;
+  color: snow;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/* Change background color of buttons on hover */
+.tabbutton:hover {
+  background-color: darkgray;
+  opacity: 0.6;
+}
+
+/* Create an active/current tablink class */
+.tabbutton.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
